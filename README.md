@@ -13,5 +13,5 @@ The next release of this application will include Sum picker. Buttons will be pr
 
 The User Interface (UI) will also be improved.
 
-**_Afe A.O_**
+**_Signed: Afe A.O_**
 
