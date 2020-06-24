@@ -2,6 +2,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body{
+    background-color: gainsboro;
+}
+
 header{
     background-color: slateblue;
 }
@@ -14,12 +18,12 @@ header{
     border-radius:50%;
 }
 
-#briefcase{
+/* #briefcase{
     height: 300px;
     background-image: url(./iConvertImage.png);
     background-repeat: no-repeat;
     background-size: 300px;    
-}
+} */
 
 
 #calc{
@@ -37,14 +41,28 @@ header{
 }
 
 table{
-    /* background-color: slateblue; */
+
+    display: none;
     width: 92%;
-    height: 200px;
+}
+
+.printout{
+    width: 100%;
 }
 
 table tr:last-child{
     background-color: peru;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
 
 /* 
 

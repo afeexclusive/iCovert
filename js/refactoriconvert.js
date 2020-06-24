@@ -64,11 +64,13 @@ class UI{
 
 
 const convert = () =>{
-    document.getElementById('result').innerHTML = '';
+    document.getElementById('result').style.display = 'block';
+    document.getElementById('resultbody').setAttribute('class', 'printout')
+    document.getElementById('resultbody').innerHTML = '';
     let useramount = parseInt(document.getElementById('inputamt').value);
     const show = new UI(useramount);
     tabledata = show.printable;
-    let table = document.getElementById('result');
+    let table = document.getElementById('resultbody');
     let row = table.insertRow();
     for(let i = 0; i<tabledata.length; i++){
         let cell1 = row.insertCell();
@@ -82,4 +84,8 @@ const convert = () =>{
     cell3.innerHTML = 'Total'
     let cell4 = row.insertCell();
     cell4.innerHTML = useramount;
+}
+
+const clearContent = () =>{
+    document.getElementById('inputamt').value = '';
 }
