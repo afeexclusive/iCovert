@@ -9,7 +9,7 @@ This App **Converts** a sum of money into Nigerian currency denominations.
 > - JavaScript
 
 ## Website Link
-https://github.com/afeexclusive/iCovert.git
+https://afeexclusive.github.io/iCovert/
 
 ### Future Release
 The next release of this application will include Sum picker. Buttons will be provided where big sum can be picked and added directly to the form.
